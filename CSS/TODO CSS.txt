@@ -1,0 +1,4 @@
+.form input:focus {
+& input:focus {
+.form.input abc {
+&.invalid input {
