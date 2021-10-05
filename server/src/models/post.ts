@@ -1,4 +1,4 @@
-export interface Todo {
+export interface Post {
   id: string;
   text: string;
 }
