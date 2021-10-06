@@ -16,10 +16,8 @@ router.post('/post', (req, res, next) => {
     id: new Date().toISOString(),
     text: body.text,
   };
-
   posts.push(newPost);
-
-  res.status(201).json({ message: 'Added Post', post: newPost, posts: posts});
+  res.status(201).json({ message: 'Added a new ost', post: newPost, posts: posts});
 });
 
 router.put('/post/:postId', (req, res, next) => {
