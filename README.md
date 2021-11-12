@@ -1,4 +1,5 @@
-# sebastianmihai01.github.io
--
-under dev
+# Portofolio 
+
+- Built with Django & templates (Why? Because I already have a Node+React project already)
+
 
